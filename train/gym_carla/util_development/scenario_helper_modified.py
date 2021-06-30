@@ -16,11 +16,11 @@ import numpy as np
 
 import carla
 
-from gym_carla.navigation.misc import vector
-from gym_carla.navigation.local_planner import RoadOption
+from train.gym_carla.navigation.misc import vector
+from train.gym_carla.navigation.local_planner import RoadOption
 
 # todo fix methods in this script
-from gym_carla.util_development.carla_data_provider import CarlaDataProvider
+from train.gym_carla.util_development.carla_data_provider import CarlaDataProvider
 
 
 def get_distance_along_route(route, target_location):

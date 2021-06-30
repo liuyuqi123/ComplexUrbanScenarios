@@ -55,7 +55,8 @@ os.environ['SCENARIO_RUNNER_ROOT'] = os.path.join(scenario_runner_path)
 
 # -------------------------------------------------------
 # append gym_carla
-gym_carla_path = os.path.abspath(os.path.join(scenario_runner_path, '..', 'gym-carla'))  # + '/'
+gym_carla_path = os.path.abspath(os.path.join(scenario_runner_path, '..', '..'))  # + '/'
+gym_carla_path = os.path.join(gym_carla_path, 'train')
 sys.path.append(gym_carla_path)
 sys.path.append(gym_carla_path + '/')
 os.environ['GYM_CARLA_ROOT'] = gym_carla_path

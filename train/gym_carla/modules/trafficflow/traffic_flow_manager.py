@@ -11,7 +11,7 @@ New functions:
 
 """
 
-from gym_carla.config.carla_config import version_config
+from train.gym_carla.config.carla_config import version_config
 
 carla_version = version_config['carla_version']
 root_path = version_config['root_path']
@@ -41,12 +41,13 @@ import carla
 import numpy as np
 import random
 
-from gym_carla.util_development.scenario_helper_modified import generate_target_waypoint
-from gym_carla.util_development.util_junction import (plot_coordinate_frame)
-from gym_carla.util_development.util_visualization import draw_waypoint
-from gym_carla.navigation.misc import get_speed
+from train.gym_carla.util_development.scenario_helper_modified import generate_target_waypoint
+from train.gym_carla.util_development.util_junction import (plot_coordinate_frame)
+from train.gym_carla.util_development.util_visualization import draw_waypoint
+from train.gym_carla.navigation.misc import get_speed
 
-from gym_carla.util_development.sensors import Sensors
+from train.gym_carla.util_development.sensors import Sensors
+
 
 # common carla color
 red = carla.Color(r=255, g=0, b=0)

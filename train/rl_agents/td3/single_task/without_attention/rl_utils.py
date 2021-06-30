@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import math
 from PIL import Image
 
-from rl_agents.td3_old.single_task.without_attention.rl_config import hyperParameters
+from train.rl_agents.td3.single_task.without_attention.rl_config import hyperParameters
 
 # import error on dell pc
 # from .rl_config import hyperParameters

@@ -10,7 +10,11 @@ import sys
 
 # ================   Append Project Path   ================
 path = os.getcwd()
-index = path.split('/').index('gym-carla') if 'gym-carla' in path.split('/') else -1
+# index = path.split('/').index('gym-carla') if 'gym-carla' in path.split('/') else -1
+
+source_path = 'train'
+index = path.split('/').index(source_path) if source_path in path.split('/') else -1
+
 proj_path = '/' + os.path.join(*path.split('/')[:index+1]) + '/'
 sys.path.append(proj_path)
 

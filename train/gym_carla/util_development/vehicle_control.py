@@ -6,9 +6,9 @@ Rule-based Planners and controllers for a carla vehicle.
 
 import carla
 
-from gym_carla.navigation.global_route_planner import GlobalRoutePlanner
-from gym_carla.navigation.global_route_planner_dao import GlobalRoutePlannerDAO
-from gym_carla.navigation.controller import VehiclePIDController
+from train.gym_carla.navigation.global_route_planner import GlobalRoutePlanner
+from train.gym_carla.navigation.global_route_planner_dao import GlobalRoutePlannerDAO
+from train.gym_carla.navigation.controller import VehiclePIDController
 
 import numpy as np
 

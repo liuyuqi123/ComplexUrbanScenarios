@@ -6,7 +6,7 @@ planned and controlled by user manually.
 
 """
 
-from gym_carla.config.carla_config import version_config
+from train.gym_carla.config.carla_config import version_config
 
 carla_version = version_config['carla_version']
 root_path = version_config['root_path']
@@ -33,16 +33,16 @@ except IndexError:
 
 import carla
 
-from gym_carla.envs.BasicEnv import BasicEnv
-from gym_carla.modules.carla_module import CarlaModule
+from train.gym_carla.envs.BasicEnv import BasicEnv
+from train.gym_carla.modules.carla_module import CarlaModule
 
-from gym_carla.util_development.scenario_helper_modified import (generate_target_waypoint,
+from train.gym_carla.util_development.scenario_helper_modified import (generate_target_waypoint,
                                                                  get_waypoint_in_distance
                                                                  )
-from gym_carla.util_development.route_manipulation import interpolate_trajectory
+from train.gym_carla.util_development.route_manipulation import interpolate_trajectory
 
-from gym_carla.util_development.util_visualization import draw_waypoint
-from gym_carla.util_development.carla_color import *
+from train.gym_carla.util_development.util_visualization import draw_waypoint
+from train.gym_carla.util_development.carla_color import *
 
 import numpy as np
 import random

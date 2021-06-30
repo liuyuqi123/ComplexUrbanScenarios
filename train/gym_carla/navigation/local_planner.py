@@ -13,8 +13,8 @@ import carla
 # from agents.navigation.controller import VehiclePIDController
 # from agents.tools.misc import draw_waypoints
 
-from gym_carla.navigation.controller import VehiclePIDController
-from gym_carla.navigation.misc import draw_waypoints
+from train.gym_carla.navigation.controller import VehiclePIDController
+from train.gym_carla.navigation.misc import draw_waypoints
 
 
 class RoadOption(Enum):

@@ -13,7 +13,7 @@ import carla
 
 import numpy as np
 
-from gym_carla.modules.traffic_lights.traffic_lights_manager import TrafficLightsController
+from train.gym_carla.modules.traffic_lights.traffic_lights_manager import TrafficLightsController
 
 
 class TrafficLightsManager(TrafficLightsController):

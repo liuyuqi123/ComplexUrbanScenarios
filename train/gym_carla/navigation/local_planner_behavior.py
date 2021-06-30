@@ -13,8 +13,8 @@ from collections import deque
 from enum import Enum
 
 import carla
-from agents.navigation.controller import VehiclePIDController
-from agents.tools.misc import distance_vehicle, draw_waypoints
+from train.agents.navigation.controller import VehiclePIDController
+from train.agents.tools.misc import distance_vehicle, draw_waypoints
 
 
 class RoadOption(Enum):

@@ -4,7 +4,7 @@ Traffic light state Controller.
 Manually set the duration time of each phase of the traffic light.
 """
 
-from gym_carla.config.carla_config import version_config
+from train.gym_carla.config.carla_config import version_config
 
 carla_version = version_config['carla_version']
 root_path = version_config['root_path']
@@ -34,9 +34,9 @@ import carla
 import numpy as np
 
 # carla module
-from gym_carla.envs.BasicEnv import BasicEnv
-from gym_carla.modules.carla_module import CarlaModule
-from gym_carla.util_development.util_visualization import draw_waypoint
+from train.gym_carla.envs.BasicEnv import BasicEnv
+from train.gym_carla.modules.carla_module import CarlaModule
+from train.gym_carla.util_development.util_visualization import draw_waypoint
 
 # common carla color
 red = carla.Color(r=255, g=0, b=0)

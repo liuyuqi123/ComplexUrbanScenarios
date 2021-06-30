@@ -3,7 +3,7 @@ This module is used to generate a route for junction turning scenario.
 
 """
 
-from gym_carla.config.carla_config import version_config
+from train.gym_carla.config.carla_config import version_config
 
 carla_version = version_config['carla_version']
 root_path = version_config['root_path']
@@ -33,13 +33,13 @@ import carla
 import numpy as np
 
 # original version
-from gym_carla.envs.BasicEnv import BasicEnv
-from gym_carla.modules.carla_module import CarlaModule
-from gym_carla.util_development.util_visualization import draw_waypoint
-from gym_carla.util_development.scenario_helper_modified import (generate_target_waypoint,
+from train.gym_carla.envs.BasicEnv import BasicEnv
+from train.gym_carla.modules.carla_module import CarlaModule
+from train.gym_carla.util_development.util_visualization import draw_waypoint
+from train.gym_carla.util_development.scenario_helper_modified import (generate_target_waypoint,
                                                                  get_waypoint_in_distance
                                                                  )
-from gym_carla.util_development.route_manipulation import interpolate_trajectory
+from train.gym_carla.util_development.route_manipulation import interpolate_trajectory
 
 # for debug
 default_junction_center = carla.Location(x=-1.32, y=132.69, z=0.00)

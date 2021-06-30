@@ -13,10 +13,10 @@ It also contains functions to convert the CARLA world location do GPS coordinate
 import math
 import xml.etree.ElementTree as ET
 
-from gym_carla.navigation.global_route_planner import GlobalRoutePlanner
-from gym_carla.navigation.global_route_planner_dao import GlobalRoutePlannerDAO
+from train.gym_carla.navigation.global_route_planner import GlobalRoutePlanner
+from train.gym_carla.navigation.global_route_planner_dao import GlobalRoutePlannerDAO
 
-from gym_carla.navigation.local_planner import RoadOption
+from train.gym_carla.navigation.local_planner import RoadOption
 
 
 def _location_to_gps(lat_ref, lon_ref, location):

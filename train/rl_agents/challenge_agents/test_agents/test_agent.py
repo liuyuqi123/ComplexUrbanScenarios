@@ -130,7 +130,7 @@ class TestAgent(AutonomousAgent):
             print('Please make sure route option is coordinate.')
         else:
             model_base = os.path.join(os.environ['GYM_CARLA_ROOT'],
-                                      'rl_agents/challenge_agents/model_dicts',
+                                      'rl_agents/challenge_agents/test_agents/model_dict',
                                       route_option)
 
             model_name = None

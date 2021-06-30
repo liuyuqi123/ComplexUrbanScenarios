@@ -8,8 +8,10 @@
 from collections import deque
 import math
 import numpy as np
+
 import carla
-from gym_carla.navigation.misc import get_speed
+
+from train.gym_carla.navigation.misc import get_speed
 
 
 class VehiclePIDController():

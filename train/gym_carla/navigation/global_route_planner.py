@@ -16,8 +16,8 @@ import carla
 # from agents.navigation.local_planner import RoadOption
 # from agents.tools.misc import vector
 
-from gym_carla.navigation.local_planner import RoadOption
-from gym_carla.navigation.misc import vector
+from train.gym_carla.navigation.local_planner import RoadOption
+from train.gym_carla.navigation.misc import vector
 
 
 class GlobalRoutePlanner(object):

@@ -22,22 +22,22 @@ import time
 
 import carla
 
-from gym_carla.navigation.local_planner import LocalPlanner
+from train.gym_carla.navigation.local_planner import LocalPlanner
 
-from gym_carla.modules.carla_module import CarlaModule
+from train.gym_carla.modules.carla_module import CarlaModule
 
-from gym_carla.util_development.sensors import Sensors
-from gym_carla.util_development.kinetics import get_transform_matrix
-from gym_carla.util_development.scenario_helper_modified import generate_target_waypoint
-from gym_carla.util_development.route_manipulation import interpolate_trajectory
+from train.gym_carla.util_development.sensors import Sensors
+from train.gym_carla.util_development.kinetics import get_transform_matrix
+from train.gym_carla.util_development.scenario_helper_modified import generate_target_waypoint
+from train.gym_carla.util_development.route_manipulation import interpolate_trajectory
 
-from gym_carla.util_development.scenario_helper_modified import RotatedRectangle
-from gym_carla.util_development.util_visualization import draw_waypoint
-from gym_carla.util_development.carla_color import *
-from gym_carla.navigation.misc import get_speed
+from train.gym_carla.util_development.scenario_helper_modified import RotatedRectangle
+from train.gym_carla.util_development.util_visualization import draw_waypoint
+from train.gym_carla.util_development.carla_color import *
+from train.gym_carla.navigation.misc import get_speed
 
-from gym_carla.modules.trafficflow.traffic_flow_manager4 import TrafficFlowManager4, detect_lane_obstacle
-from gym_carla.modules.trafficflow.ou_noise import (TruncatedOUNoise, CoordinateNoise)
+from train.gym_carla.modules.trafficflow.traffic_flow_manager4 import TrafficFlowManager4, detect_lane_obstacle
+from train.gym_carla.modules.trafficflow.ou_noise import (TruncatedOUNoise, CoordinateNoise)
 
 
 class TrafficFlowManager5(TrafficFlowManager4):

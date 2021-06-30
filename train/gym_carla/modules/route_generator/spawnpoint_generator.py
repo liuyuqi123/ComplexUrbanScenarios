@@ -6,7 +6,7 @@ Modified based on junction_route_generator.py
 
 """
 
-from gym_carla.config.carla_config import version_config
+from train.gym_carla.config.carla_config import version_config
 
 carla_version = version_config['carla_version']
 root_path = version_config['root_path']
