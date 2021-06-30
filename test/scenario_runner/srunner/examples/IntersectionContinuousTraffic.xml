@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<scenarios>
+    <scenario name="TestContinuous-left-negative_y_0-straight" type="IntersectionContinuousTraffic" town="Town03">
+        <ego_vehicle x="2.227695" y="159.210953" z="0.2" yaw="269.637451" model="vehicle.lincoln.mkz2017" />
+        <other_actor x="-6.221644" y="68.222672" z="0.0" yaw="89.637459" model="vehicle.tesla.model3" />
+    </scenario>
+    <scenario name="TestContinuous-left-negative_y_1-right" type="IntersectionContinuousTraffic" town="Town03">
+        <ego_vehicle x="2.227695" y="159.210953" z="0.2" yaw="269.637451" model="vehicle.lincoln.mkz2017" />
+        <other_actor x="-9.911532" y="68.223877" z="0.0" yaw="89.637459" model="vehicle.tesla.model3" />
+    </scenario>
+    <scenario name="TestContinuous-right-negative_x-straight" type="IntersectionContinuousTraffic" town="Town03">
+        <ego_vehicle x="5.854938" y="159.210953" z="0.2" yaw="269.637451" model="vehicle.lincoln.mkz2017" />
+        <other_actor x="-59.185104" y="135.309021" z="0.0" yaw="-1.296802" model="vehicle.tesla.model3" />
+    </scenario>
+    <scenario name="TestContinuous-straight-negative_x-straight" type="IntersectionContinuousTraffic" town="Town03">
+        <ego_vehicle x="2.227695" y="159.210953" z="0.2" yaw="269.637451" model="vehicle.lincoln.mkz2017" />
+        <other_actor x="-59.185104" y="135.074112" z="0.0" yaw="-1.296802" model="vehicle.tesla.model3" />
+    </scenario>
+    <scenario name="TestContinuous-straight-negative_y_0-left" type="IntersectionContinuousTraffic" town="Town03">
+        <ego_vehicle x="2.227695" y="159.210953" z="0.2" yaw="269.637451" model="vehicle.lincoln.mkz2017" />
+        <other_actor x="-6.221644" y="68.222672" z="0.0" yaw="89.637459" model="vehicle.tesla.model3" />
+    </scenario>
+
+    <scenario name="TestContinuous-straight_1-negative_x-straight" type="IntersectionContinuousTraffic" town="Town03">
+        <ego_vehicle x="5.854938" y="159.210953" z="0.2" yaw="269.637451" model="vehicle.lincoln.mkz2017" />
+        <other_actor x="-59.185104" y="135.074112" z="0.0" yaw="-1.296802" model="vehicle.tesla.model3" />
+    </scenario>
+    <scenario name="TestContinuous-straight_1-negative_y_0-left" type="IntersectionContinuousTraffic" town="Town03">
+        <ego_vehicle x="5.854938" y="159.210953" z="0.2" yaw="269.637451" model="vehicle.lincoln.mkz2017" />
+        <other_actor x="-6.221644" y="68.222672" z="0.0" yaw="89.637459" model="vehicle.tesla.model3" />
+    </scenario>
+
+</scenarios>

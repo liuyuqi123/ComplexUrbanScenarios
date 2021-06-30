@@ -1,0 +1,72 @@
+/home/lyq/anaconda3/envs/gym_carla/bin/python /home/lyq/PycharmProjects/scenario_runner/srunner/drl_code/result_analysis/result_analysis.py
+
+============================================================ 
+ Scenario:  ego_left_tf_straight 
+ Counted Test Number:  288 
+ Success Number:  273 
+ Average Duration(success):  6.833854268499029 
+ Collision Number:  12 
+ Time-exceed Number:  3 
+ Success Rate: 94.79% 
+ ============================================================
+
+============================================================ 
+ Scenario:  ego_right_tf_straight 
+ Counted Test Number:  288 
+ Success Number:  257 
+ Average Duration(success):  7.047222327234016 
+ Collision Number:  8 
+ Time-exceed Number:  23 
+ Success Rate: 89.24% 
+ ============================================================
+
+============================================================ 
+ Scenario:  ego_straight_tf_left 
+ Counted Test Number:  288 
+ Success Number:  213 
+ Average Duration(success):  4.786284793543422 
+ Collision Number:  37 
+ Time-exceed Number:  38 
+ Success Rate: 73.96% 
+ ============================================================
+
+============================================================ 
+ Scenario:  ego_straight_tf_straight 
+ Counted Test Number:  288 
+ Success Number:  285 
+ Average Duration(success):  6.9423612145603535 
+ Collision Number:  3 
+ Time-exceed Number:  0 
+ Success Rate: 98.96% 
+ ============================================================
+
+============================================================ 
+ Scenario:  ego_left_tf_right 
+ Counted Test Number:  288 
+ Success Number:  270 
+ Average Duration(success):  6.65937509923242 
+ Collision Number:  18 
+ Time-exceed Number:  0 
+ Success Rate: 93.75% 
+ ============================================================
+
+============================================================ 
+ Total Scenario Number:  5 
+ Included Scenarios: 
+- ego_left_tf_straight
+- ego_right_tf_straight
+- ego_straight_tf_left
+- ego_straight_tf_straight
+- ego_left_tf_right
+
+ Speed Range:  (10, 40) 
+ Distance Range:  (15, 50) 
+ Counted Test Number:  1440 
+ Success Number:  1298 
+ Collision Number:  78 
+ Time-exceed Number:  64 
+ Success Rate: 90.14% 
+ ============================================================
+
+Process finished with exit code 0
+
