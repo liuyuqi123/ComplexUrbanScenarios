@@ -5,11 +5,6 @@ This repository contains codes for the Complex Urban Scenarios for Autonomous Dr
 In this repository, we deploy a set of autonomous agents developed based on Reinforcement learning(RL) methods.
 
 
-
-methods for training testing respectively.
-In our research work, we use CARLA as the autonomous driving simulator.
-
-
 ## 2 Get started
 ### 2.0 system requirements
 Ubuntu 16.04-18.04  
