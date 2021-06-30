@@ -18,7 +18,8 @@ import json
 
 # =======================================================
 # ================   Append CARLA path   ================
-from srunner.drl_code.carla_config import version_config
+# from srunner.drl_code.carla_config import version_config
+from train.gym_carla.config.carla_config import version_config
 
 carla_version = version_config['carla_version']
 root_path = version_config['root_path']
@@ -995,7 +996,9 @@ def main():
         '--route', help='Run a route as a scenario (input: (route_file,scenario_file,[route id]))', nargs='+', type=str)
 
     parser.add_argument(
-        '--agent', help="Agent used to execute the scenario. Currently only compatible with route-based scenarios.")
+        '--agent',
+        default='',
+        help="Agent used to execute the scenario. Currently only compatible with route-based scenarios.")
     parser.add_argument('--agentConfig', type=str, help="Path to Agent's configuration file", default="")
 
     parser.add_argument('--output', action="store_true", help='Provide results on stdout')
