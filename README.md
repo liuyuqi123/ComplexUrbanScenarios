@@ -42,7 +42,9 @@ We provide a baseline agent with trained weights stored in
 `train/rl_agents/challenge_agents/test_agents`  
 You can replace the weight file in `model_dict` folder with your own trained model.
 
-### 2.2 testing
+### 2.2 Testing
+
+#### 2.2.1 Running the test
 
 In order to test trained agent in testing scenarios, please run the 
 `./test/scenario_runner/run_scenario_test.py`
@@ -61,15 +63,45 @@ python run_scenario_test.py
 --tag test
 ```
 
+#### 2.2.2 Testing your model
 We deploy a set of traffic scenarios for testing the trained agent.
 If you wish to test your trained agent, please put your tensorflow NN weights in   
 `train/rl_agents/challenge_agents/test_agents/model_dict`  
 Model dict should be put in correct folder of different task.
 
+#### 2.2.3 Available scenarios
+
+In this repository, we propose 5 intersection scenarios based on 
+[T/CMAX standard](http://mzone.site/Uploads/Editor/2021-01-07/5ff67954ba9fc.pdf).
+All 5 scenarios are added to our test set, users can select desired scenarios form   
+`./test/scenario_runner/srunner/examples/IntersectionContinuousTraffic.xml`  
+Testing params are available for all 5 scenarios.
+
+
 ## 3 Intersection Scenarios
 In this part, a series of scenarios of urban intersection are deployed to validate the
 performance of the RL agent.
 We develop traffic scenarios using CARLA scenario_runner module.
+
+We select 5 challenging scenarios of intersection scenarios:
+
+ - turning left meeting going straight traffic flow
+![avatar](Docs/gifs/left_straight.gif)
+
+- turning left meeting turning right traffic flow
+![avatar](Docs/gifs/left_right.gif)
+
+- turning right meeting going straight traffic flow
+![avatar](Docs/gifs/right_straight.gif)
+
+- going straight meeting going straight traffic flow
+![avatar](Docs/gifs/straight_straight.gif)
+
+- going straight meeting turning left traffic flow
+![avatar](Docs/gifs/straight_left.gif)
+  
+All these 5 intersection scenarios are facing great challenges from collision risk.
+The autonomous vehicle must find a proper timing to cross the traffic flow to finish the determined route.
 
 ## 4 Baselines & Results 
 In our work, we deploy a td3 agent to handle the intersection turning task.
