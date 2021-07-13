@@ -85,8 +85,12 @@ We develop traffic scenarios using CARLA scenario_runner module.
 
 We select 5 challenging scenarios of intersection scenarios:
 
- - turning left meeting going straight traffic flow
-![avatar](Docs/gifs/left_straight.gif)
+ - turning left meeting going straight traffic flow  
+
+![avatar](Docs/gifs/left_straight.gif)  
+   
+<img src="Docs/gifs/left_straight.gif" width="150"/>
+
 
 - turning left meeting turning right traffic flow
 ![avatar](Docs/gifs/left_right.gif)
