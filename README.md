@@ -87,23 +87,50 @@ We select 5 challenging scenarios of intersection scenarios:
 
  - turning left meeting going straight traffic flow  
 
-![avatar](Docs/gifs/left_straight.gif)  
-   
-<img src="Docs/gifs/left_straight.gif" width="150"/>
+[comment]: <> (![avatar]&#40;Docs/gifs/left_straight.gif&#41;  )
 
+<div align="left">
+<img src="Docs/figures/scenarios/left_straight.png" width="250">
+<img src="Docs/gifs/left_straight.gif" width="250">
+</div>
 
 - turning left meeting turning right traffic flow
-![avatar](Docs/gifs/left_right.gif)
+
+[comment]: <> (![avatar]&#40;Docs/gifs/left_right.gif&#41;)
+  
+<div align="left">
+<img src="Docs/figures/scenarios/left_right.png" width="250">
+<img src="Docs/gifs/left_right.gif" width="250">
+</div>
+
 
 - turning right meeting going straight traffic flow
-![avatar](Docs/gifs/right_straight.gif)
+
+[comment]: <> (![avatar]&#40;Docs/gifs/right_straight.gif&#41;)
+  
+<div align="left">
+<img src="Docs/figures/scenarios/right_straight.png" width="250">
+<img src="Docs/gifs/right_straight.gif" width="250">
+</div>
 
 - going straight meeting going straight traffic flow
-![avatar](Docs/gifs/straight_straight.gif)
+
+[comment]: <> (![avatar]&#40;Docs/gifs/straight_straight.gif&#41;)
+  
+<div align="left">
+<img src="Docs/figures/scenarios/straight_straight.png" width="250">
+<img src="Docs/gifs/straight_straight.gif" width="250">
+</div>
 
 - going straight meeting turning left traffic flow
-![avatar](Docs/gifs/straight_left.gif)
+
+[comment]: <> (![avatar]&#40;Docs/gifs/straight_left.gif&#41;)
   
+<div align="left">
+<img src="Docs/figures/scenarios/straight_left.png" width="250">
+<img src="Docs/gifs/straight_left.gif" width="250">
+</div>
+
 All these 5 intersection scenarios are facing great challenges from collision risk.
 The autonomous vehicle must find a proper timing to cross the traffic flow to finish the determined route.
 
